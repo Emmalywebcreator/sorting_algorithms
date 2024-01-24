@@ -17,10 +17,11 @@ void bubble_sort(int *array, size_t size)
 		return;
 	}
 
-	while (bubbly == false)
+	for (; bubbly == false;)
 	{
 		bubbly = true;
 		for (i = 0; i < len - 1; i++)
+		{
 
 			if (array[i] > array[i + 1])
 			{
